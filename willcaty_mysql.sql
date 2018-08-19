@@ -120,4 +120,3 @@
   select a.name,2018-a.birth as age,a.department,b.c_name,b.grade
   from student a,score b
   where a.id=b.stu_id and a.address regexp '^湖南';
-  
